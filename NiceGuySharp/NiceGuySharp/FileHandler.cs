@@ -88,7 +88,7 @@ namespace NiceGuySharp
             {
                 var newfile = File.Create(OnDeathTxt);
                 newfile.Close();
-                const string content = "aray\naw\nsorry po\nomg\nanlakas grabe\nmali ako shit sorry\naruy\nsensya po\nsorry\nlag\naw\nang lag shet\nlag spike\nomg\ndi ko sadya\nhelp\nanlag\niyak";
+                const string content = "lag";
                 var separator = new[] { "\n" };
                 string[] lines = content.Split(separator, StringSplitOptions.None);
                 File.WriteAllLines(OnDeathTxt, lines);
