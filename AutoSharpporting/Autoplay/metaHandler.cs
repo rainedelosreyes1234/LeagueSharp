@@ -63,7 +63,7 @@ namespace Support
                         int startingItem = Autoplay.Rand.Next(-6, 7);
                         if (startingItem < 0)
                         {
-                            Autoplay.Bot.BuyItem(ItemId.Spellthiefs_Edge);
+                            Autoplay.Bot.BuyItem(ItemId.Ancient_Coin);
                         }
                         if (startingItem == 0)
                         {
